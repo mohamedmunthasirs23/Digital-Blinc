@@ -46,6 +46,7 @@ Type a phrase: I am feeling great today!
 Predicted Emoji: 😊
 
 🧬 How It Works
+
 A sample dataset is created with text phrases mapped to emoji labels.
 TfidfVectorizer converts text into numerical vectors.
 LogisticRegression is trained on these vectors to learn the mappings.
@@ -53,6 +54,7 @@ The model is saved to disk for reuse.
 On user input, the model predicts the label and returns the associated emoji.
 
 🔢 Emoji Mapping (Partial View)
+
 Label	Emoji	Meaning
 0	😜	Playful / Silly
 1	📸	Photo / Selfie
@@ -72,6 +74,7 @@ Label	Emoji	Meaning
 15	🥺	Pleading / Emotional
 
 📈 Future Enhancements
+
 🔍 Use advanced models like BERT or LSTM for contextual understanding
 🧑‍💻 Build a web-based interface using Streamlit or Flask
 📦 Integrate with external emoji APIs (e.g., Emojinet, Twitter dataset)
@@ -79,6 +82,7 @@ Label	Emoji	Meaning
 🌐 Add support for different languages
 
 📃 License
+
 This project is released for educational and non-commercial purposes only.
 
 
