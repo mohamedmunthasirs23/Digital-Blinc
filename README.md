@@ -45,7 +45,7 @@ python emoji_predictor_ml.py
 Type a phrase: I am feeling great today!
 Predicted Emoji: 😊
 
-🧬 How It Works
+### How It Works
 
 A sample dataset is created with text phrases mapped to emoji labels.
 
@@ -57,7 +57,7 @@ The model is saved to disk for reuse.
 
 On user input, the model predicts the label and returns the associated emoji.
 
-🔢 Emoji Mapping (Partial View)
+### Emoji Mapping (Partial View)
 
 Label	Emoji	Meaning
 0	😜	Playful / Silly
@@ -77,7 +77,7 @@ Label	Emoji	Meaning
 14	🤯	Shock / Mind-blown
 15	🥺	Pleading / Emotional
 
-📈 Future Enhancements
+### 📈 Future Enhancements
 
 🔍 Use advanced models like BERT or LSTM for contextual understanding
 
@@ -89,7 +89,7 @@ Label	Emoji	Meaning
 
 🌐 Add support for different languages
 
-📃 License
+### 📃 License
 
 This project is released for educational and non-commercial purposes only.
 
