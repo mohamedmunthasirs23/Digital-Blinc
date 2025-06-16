@@ -48,9 +48,13 @@ Predicted Emoji: 😊
 🧬 How It Works
 
 A sample dataset is created with text phrases mapped to emoji labels.
+
 TfidfVectorizer converts text into numerical vectors.
+
 LogisticRegression is trained on these vectors to learn the mappings.
+
 The model is saved to disk for reuse.
+
 On user input, the model predicts the label and returns the associated emoji.
 
 🔢 Emoji Mapping (Partial View)
@@ -76,9 +80,13 @@ Label	Emoji	Meaning
 📈 Future Enhancements
 
 🔍 Use advanced models like BERT or LSTM for contextual understanding
+
 🧑‍💻 Build a web-based interface using Streamlit or Flask
+
 📦 Integrate with external emoji APIs (e.g., Emojinet, Twitter dataset)
+
 🎨 Support multiple emojis for a single sentence (multi-label prediction)
+
 🌐 Add support for different languages
 
 📃 License
